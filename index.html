@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Master Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container">
+        <div id="start-screen" class="screen">
+            <div class="icon">🧮</div>
+            <h1>Math Challenge</h1>
+            <p class="subtitle">5 Questions • 15s per round • -0.25 penalty</p>
+            <button id="start-btn" class="main-btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz-screen" class="screen hidden">
+            <div class="quiz-header">
+                <div class="stat">
+                    <span class="label">Time</span>
+                    <span id="time-left" class="value">15</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Score</span>
+                    <span id="current-score" class="value">0</span>
+                </div>
+            </div>
+            
+            <div class="progress-wrapper">
+                <div class="progress-bar" id="progress"></div>
+            </div>
+
+            <h2 id="question-text">Question loading...</h2>
+            <div id="options-container" class="options-grid"></div>
+        </div>
+
+        <div id="result-section" class="screen hidden">
+            <div class="icon">🏆</div>
+            <h2>Quiz Finished!</h2>
+            <div class="final-score-box">
+                <p>Your Final Score</p>
+                <h1 id="final-score-text">0</h1>
+            </div>
+            <div id="review-container"></div>
+            <button onclick="restartQuiz()" class="main-btn blue-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

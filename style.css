@@ -1,0 +1,104 @@
+:root {
+    --primary: #4f46e5;
+    --primary-dark: #3730a3;
+    --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --white: #ffffff;
+    --success: #10b981;
+    --error: #ef4444;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background: rgba(255, 255, 255, 0.98);
+    padding: 2.5rem;
+    border-radius: 24px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+}
+
+.screen { transition: all 0.3s ease; }
+.hidden { display: none; }
+
+.icon { font-size: 3.5rem; margin-bottom: 1rem; }
+h1 { color: #1f2937; margin: 0; }
+.subtitle { color: #6b7280; font-size: 0.95rem; margin-bottom: 2rem; }
+
+/* Stats & Progress */
+.quiz-header { display: flex; justify-content: space-between; margin-bottom: 1rem; }
+.stat { display: flex; flex-direction: column; align-items: flex-start; }
+.label { font-size: 0.75rem; color: #9ca3af; text-transform: uppercase; font-weight: bold; }
+.value { font-size: 1.4rem; font-weight: 800; color: var(--primary); }
+
+.progress-wrapper { background: #e5e7eb; height: 6px; border-radius: 10px; margin-bottom: 2rem; }
+.progress-bar { height: 100%; background: var(--primary); width: 0%; transition: width 0.4s ease; }
+
+/* Question & Buttons */
+h2 { color: #1f2937; font-size: 1.4rem; min-height: 60px; margin-bottom: 1.5rem; }
+.options-grid { display: grid; gap: 12px; }
+
+.option-btn {
+    padding: 16px;
+    border: 2px solid #f3f4f6;
+    border-radius: 12px;
+    background: var(--white);
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4b5563;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.option-btn:hover {
+    border-color: var(--primary);
+    background-color: #f5f3ff;
+    color: var(--primary);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.2);
+}
+
+.main-btn {
+    width: 100%;
+    max-width: 260px;
+    margin: 2rem auto 0 auto;
+    padding: 14px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.blue-btn { background: #2563eb; }
+.blue-btn:hover { background: #1d4ed8; transform: scale(1.03); }
+
+/* Review List */
+#review-container {
+    margin-top: 1.5rem;
+    max-height: 180px;
+    overflow-y: auto;
+    background: #f9fafb;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.review-item {
+    text-align: left;
+    font-size: 0.85rem;
+    padding: 8px;
+    border-bottom: 1px solid #e5e7eb;
+}
