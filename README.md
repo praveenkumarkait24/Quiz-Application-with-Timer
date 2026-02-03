@@ -143,15 +143,13 @@ The application challenges users with 5 carefully crafted math questions ranging
 - Sequential question display with progress tracking
 
 #### 2️⃣ **Timer System**
-```javascript
 - Countdown from 15 seconds
 - Updates every 1 second
 - Auto-submits on timeout (treated as wrong answer)
 - Cleared when user selects answer
-```
 
 #### 3️⃣ **Scoring Algorithm**
-```javascript
+```
 Correct Answer: score += 1.0
 Wrong/Timeout:  score -= 0.25
 Final Display:  parseFloat(score.toFixed(2)) // Removes trailing zeros
@@ -245,7 +243,7 @@ Quiz-Application-with-Timer/
 The quiz includes 5 diverse math questions covering:
 - 📊 **Percentages** - Calculate percentage values
 - 🔢 **Algebra** - Solve simple equations
-- √ **Square Roots** - Basic root calculations
+- ⬜ **Square Roots** - Basic root calculations
 - 📐 **Geometry** - Angle measurements
 - ➗ **Arithmetic** - Order of operations (BODMAS/PEMDAS)
 
