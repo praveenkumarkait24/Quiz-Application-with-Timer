@@ -117,7 +117,7 @@ wiki/
 
 ### Comprehensive Coverage
 
-- **70+ pages** of documentation across all wiki files
+- **2,900+ lines** of documentation across all wiki files
 - **Code examples** and snippets
 - **Visual diagrams** (ASCII art)
 - **Tables** for organized information
