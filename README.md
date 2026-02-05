@@ -8,7 +8,7 @@
 
 **An interactive math quiz application with time-based challenges and instant feedback**
 
-[✨ Features](#-features) • [🛠️ Technologies](#️-technologies-used) • [📖 How It Works](#-how-it-works) • [🚀 Getting Started](#-getting-started)
+[✨ Features](#-features) • [🛠️ Technologies](#️-technologies-used) • [📖 How It Works](#-how-it-works) • [🚀 Getting Started](#-getting-started) • [📚 Wiki](docs/)
 
 </div>
 
@@ -213,7 +213,8 @@ Quiz-Application-with-Timer/
 ├── 📄 index.html          # Main HTML structure
 ├── 🎨 style.css           # Styling and animations
 ├── ⚙️ script.js           # Quiz logic and functionality
-└── 📖 README.md           # Project documentation
+├── 📖 README.md           # Project documentation
+└── 📚 docs/               # Wiki documentation (11 comprehensive pages)
 ```
 
 ### File Descriptions
@@ -246,6 +247,23 @@ The quiz includes 5 diverse math questions covering:
 - ⬜ **Square Roots** - Basic root calculations
 - 📐 **Geometry** - Angle measurements
 - ➗ **Arithmetic** - Order of operations (BODMAS/PEMDAS)
+
+---
+
+## 📚 Wiki Documentation
+
+Comprehensive documentation is available in the [docs/](docs/) folder, including:
+
+- **[Home](docs/Home.md)** - Wiki overview and navigation
+- **[Quick Start](docs/Quick-Start.md)** - Get started in 2 minutes
+- **[User Guide](docs/User-Guide.md)** - How to play and scoring details
+- **[Installation Guide](docs/Installation-Guide.md)** - Detailed setup instructions
+- **[Technical Documentation](docs/Technical-Documentation.md)** - Architecture and code structure
+- **[API Reference](docs/API-Reference.md)** - Complete function reference
+- **[Customization Guide](docs/Customization-Guide.md)** - How to add questions and modify features
+- **[FAQ](docs/FAQ.md)** - Frequently asked questions
+- **[Troubleshooting](docs/Troubleshooting.md)** - Common issues and solutions
+- **[Contributing](docs/Contributing.md)** - How to contribute to the project
 
 ---
 
